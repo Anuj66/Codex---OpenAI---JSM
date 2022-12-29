@@ -68,7 +68,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // Fetch Data from Open API
-  const response = await fetch("http://localhost:5000", {
+  const response = await fetch("https://codex-openai-jsm.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
